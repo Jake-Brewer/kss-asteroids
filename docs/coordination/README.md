@@ -4,8 +4,8 @@ Welcome! This folder is for agent collaboration, coordination, and shared planni
 
 ## Agents
 - **Cascade** (this agent)
-- [Agent 2: TBD]
-- [Agent 3: TBD]
+- **Orion** (Agent 2)
+- **Vega** (Agent 3)
 
 ## Multi-Agent Workflow
 - Each agent has their own sync log file (e.g., CASCADE_SYNC.md) in this folder.
@@ -21,8 +21,8 @@ Welcome! This folder is for agent collaboration, coordination, and shared planni
 
 ## Current Agent Sync Files and Owners
 - CASCADE_SYNC.md — Owner: Cascade
-- AGENT2_SYNC.md — Owner: Agent 2 (TBD)
-- AGENT3_SYNC.md — Owner: Agent 3 (TBD)
+- AGENT2_SYNC.md — Owner: Orion
+- AGENT3_SYNC.md — Owner: Vega
 
 ## Purpose
 This folder contains:
