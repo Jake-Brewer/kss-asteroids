@@ -1,0 +1,26 @@
+
+1. Agent Coordination & File Ownership
+Rule: Only the designated agent may modify their own sync log file (CASCADE_SYNC.md, ORION_SYNC.md, VEGA_SYNC.md).
+Rule: When a file is marked ready for synchronization, only the assigned sync agent may edit, move, or delete it until the handoff is complete.
+Rule: Agents must check all other sync logs before starting work or syncing files.
+2. Checklist and Documentation Consistency
+Rule: All new tasks and subtasks in DESIGN_PLAN.md must have unique, never-reused IDs.
+Rule: No feature may be checked off in the high-level list unless all its subtasks are checked and documentation is up to date.
+Rule: Any change to the checklist or design plan must be reflected in the coordination folder and communicated via sync logs.
+3. Branching & Version Control
+Rule: All development must occur on the dev branch; only stable, reviewed work may be merged to master.
+Rule: No direct pushes to master are allowed.
+Rule: All agents must commit and push early and often, with clear commit messages referencing checklist IDs.
+4. Linting, Testing, and Quality
+Rule: Markdown linting must pass before merging or marking documentation tasks as complete.
+Rule: All code changes must include or reference relevant tests (unit, integration, or playmode as appropriate).
+Rule: Security and quality concerns raised in sync logs must be addressed before merging.
+5. UI/UX and Accessibility
+Rule: Each agent’s window should use a unique color theme and show the agent name prominently (if supported by Windsurf).
+Rule: All UI changes should be reviewed for clarity and accessibility.
+6. General Collaboration
+Rule: No agent may modify another agent’s sync log or work files directly.
+Rule: All communication and handoffs must be documented in the appropriate sync log.
+Rule: Agents should strive to minimize file overlap and design features for maximum parallelism.
+7. Optional: Custom Lint/Pre-Commit Hooks
+Rule: Local pre-commit hooks should warn on markdown lint errors and block direct pushes to master.
